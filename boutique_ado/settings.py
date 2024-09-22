@@ -27,6 +27,8 @@ SECRET_KEY = 'django-insecure--z2)ert&=gu+7pd=f592e6fh=^mehr7w+pgl*6kfjti&9(yx5j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
+
 ALLOWED_HOSTS = [
 
     'https://8000-davidkilty-boutiqueadov-dkksem98dgw.ws.codeinstitute-ide.net/',
