@@ -25,13 +25,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--z2)ert&=gu+7pd=f592e6fh=^mehr7w+pgl*6kfjti&9(yx5j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = False
+ 
 
 
 ALLOWED_HOSTS = [
 
     'https://8000-davidkilty-boutiqueadov-dkksem98dgw.ws.codeinstitute-ide.net/',
-    '8000-davidkilty-boutiqueadov-dkksem98dgw.ws.codeinstitute-ide.net'
+    '8000-davidkilty-boutiqueadov-dkksem98dgw.ws.codeinstitute-ide.net', 
 
     ]
 
@@ -154,6 +155,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
