@@ -1,8 +1,17 @@
+# home/views.py
+
 from django.shortcuts import render
 
-# Create your views here.
-
+# Home page view
 def index(request):
-    """ A view to return the index page """
-
+    """
+    A view to return the index page
+    """
     return render(request, 'home/index.html')
+
+# Profile page view
+def profile(request):
+    """
+    A view to return the user's profile page
+    """
+    return render(request, 'profile.html')
